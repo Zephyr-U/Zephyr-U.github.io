@@ -9,7 +9,7 @@ redirect_from:
 
 Hi, I am Chi-Wa U (Zephyr), an analog and mixed-signal IC researcher working on ultra-low-power systems for biomedical and sensing applications.
 
-I am a UM Macau Fellow at the [Institute of Microelectronics (IME)](https://ime.um.edu.mo/), University of Macau. I am currently on visitng to [Microelectronics Lab (meLAB)](https://melabresearch.com/), University of Glasgow, as a Postdoctoral Research Associate (Visiting) and will join the as a Postdoctoral Research Associate from August 2026.
+I am a UM Macau Fellow at the [Institute of Microelectronics (IME)](https://ime.um.edu.mo/), University of Macau. I am currently visiting the [Microelectronics Lab (meLAB)](https://melabresearch.com/) at the University of Glasgow as a Postdoctoral Research Associate (Visiting), and I will join meLAB as a Postdoctoral Research Associate from August 2026.
 
 My research focuses on precision voltage references, low-power analog front ends, biomedical ASICs, ultrasonic imaging systems, and wearable or implantable sensing platforms. A representative recent work is the [sub-µW auto-calibration bandgap voltage reference published in IEEE JSSC](https://doi.org/10.1109/JSSC.2023.3294996).
 
@@ -25,7 +25,7 @@ Research interests
 Selected current work
 =======
 
-I am principal investigator of an NSFC Young Scientist Fund project on self-calibration bandgap reference circuits and co-principal investigator of a University of Macau funded project on ASIC-enhanced photoacoustic blood vessel imaging. I also contribute to research projects on ultrasonic imaging ASICs, hybrid DC-DC converters, and low-power voltage references for IoT systems.
+I am the principal investigator of an NSFC Young Scientist Fund project on self-calibration bandgap reference circuits and a co-principal investigator of a University of Macau funded project on ASIC-enhanced photoacoustic blood vessel imaging. I also contribute to research projects on ultrasonic imaging ASICs, hybrid DC-DC converters, and low-power voltage references for IoT systems.
 
 Contact
 ======
