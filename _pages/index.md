@@ -9,7 +9,7 @@ redirect_from:
 
 Hi, I am Chi-Wa U (Zephyr), an analog and mixed-signal IC researcher working on ultra-low-power systems for biomedical and sensing applications.
 
-I am a UM Macau Fellow at the [Institute of Microelectronics (IME)](https://ime.um.edu.mo/), University of Macau. I will join the [Microelectronics Lab (meLAB)](https://melabresearch.com/), University of Glasgow, as a Postdoctoral Research Associate in 2025-2026, with a confirmed continuing appointment from August 2026.
+I am a UM Macau Fellow at the [Institute of Microelectronics (IME)](https://ime.um.edu.mo/), University of Macau. I am currently on visitng to [Microelectronics Lab (meLAB)](https://melabresearch.com/), University of Glasgow, as a Postdoctoral Research Associate (Visiting) and will join the as a Postdoctoral Research Associate from August 2026.
 
 My research focuses on precision voltage references, low-power analog front ends, biomedical ASICs, ultrasonic imaging systems, and wearable or implantable sensing platforms. A representative recent work is the [sub-µW auto-calibration bandgap voltage reference published in IEEE JSSC](https://doi.org/10.1109/JSSC.2023.3294996).
 
