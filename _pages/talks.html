@@ -7,6 +7,15 @@ permalink: /research/
 author_profile: true
 ---
 
+<style>
+  .research-content h2 { margin: 1.25em 0 .45em; }
+  .research-content p { margin: 0 0 .65em; }
+  .research-temperature { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+  .research-temperature h3 { margin: 0 0 .4em; }
+  .research-temperature img { width: 100%; height: auto; }
+  @media (max-width: 640px) { .research-temperature { grid-template-columns: 1fr; } }
+</style>
+<div class="research-content">
 <h1>Precision Analog Circuits and Systems</h1>
 
 <h2>BGR Trimming and Auto-Calibration</h2>
@@ -21,11 +30,6 @@ author_profile: true
 <a href="{{ '/images/research/ai-signal-gating.png' | relative_url }}"><img src="{{ '/images/research/ai-signal-gating.webp' | relative_url }}" alt="AI-based reliability gate for bioimpedance signals, illustrating keep and withhold decisions" style="width:100%;height:auto;" loading="lazy" width="1174" height="568" decoding="async"></a>
 
 <h2>Temperature Sensors</h2>
-<style>
-  .research-temperature { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
-  .research-temperature img { width: 100%; height: auto; }
-  @media (max-width: 640px) { .research-temperature { grid-template-columns: 1fr; } }
-</style>
 <div class="research-temperature">
   <div>
     <h3>Temperature Sensing for Energy-Harvesting Nodes</h3>
@@ -39,4 +43,5 @@ author_profile: true
     <p><a href="https://doi.org/10.1109/TCSI.2026.3715416">Related paper: A 555-µm² Digital Temperature Sensor, IEEE TCAS-I</a></p>
     <a href="{{ '/images/research/temperature-on-chip.png' | relative_url }}"><img src="{{ '/images/research/temperature-on-chip.webp' | relative_url }}" alt="Compact on-chip temperature sensor, chip layout, thermal map and readout signal chain" loading="lazy" width="1000" height="710" decoding="async"></a>
   </div>
+</div>
 </div>
