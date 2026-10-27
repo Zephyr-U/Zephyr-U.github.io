@@ -5,6 +5,7 @@ seo_title: "Resume | Chi-Wa U (Zephyr)"
 description: "Education, research experience, funded projects, fellowships, and selected awards of Chi-Wa U (Zephyr), University of Glasgow."
 permalink: /resume/
 author_profile: true
+hide_title: true
 redirect_from:
   - /cv
 ---
