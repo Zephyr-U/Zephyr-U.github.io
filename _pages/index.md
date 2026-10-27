@@ -11,8 +11,6 @@ Hi, I'm Chi-Wa U (Zephyr). I develop circuits and systems for biomedical sensing
 
 I am currently a Postdoctoral Research Associate at the [Microelectronics Lab (meLAB)](https://melabresearch.com/), University of Glasgow. I also continue to collaborate with Prof. [Chi-Seng Lam](https://ime.um.edu.mo/people/cslam/) at the [Institute of Microelectronics (IME)](https://ime.um.edu.mo/), University of Macau, jointly guiding students in integrated circuit research.
 
-My research focuses on precision voltage references, low-power analog front ends, biomedical ASICs, ultrasonic imaging systems, and wearable or implantable sensing platforms. A representative recent work is the [sub-µW auto-calibration bandgap voltage reference published in IEEE JSSC](https://doi.org/10.1109/JSSC.2023.3294996).
-
 Research interests
 ======
 
@@ -21,6 +19,9 @@ Research interests
 * Biomedical ASICs for sensing, imaging, and implantable systems
 * Ultrasonic imaging transceivers and photoacoustic imaging systems
 * Power management circuits for IoT, wearable, and electric-vehicle systems
+
+Recent News
+======
 
 Selected current work
 =======
