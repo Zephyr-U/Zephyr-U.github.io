@@ -23,6 +23,8 @@ Research interests
 Recent News
 ======
 
+* **June 30, 2026** — Two papers in *IEEE TCAS-I*, led by Haochen Yu and Yin Zhang, will be presented at ISICAS 2026.
+
 Selected current work
 =======
 
