@@ -17,28 +17,24 @@ redirect_from:
 # Professional Experience
 
 * **Postdoctoral Research Associate**, Microelectronics Lab (meLAB), University of Glasgow, UK, Jul. 2025–present<br>
-  Hosted by Prof. Hadi Heidari. Supported by the UM Macau Fellow Scheme under UM Talent Programme and the EPSRC-SEQUENCE Project.
+  Hosted by Prof. Hadi Heidari.
 * **UM Macau Fellow (Postdoctoral Fellow)**, Institute of Microelectronics, University of Macau, Macau, Aug. 2023-Jul. 2026  
-  Hosted by Prof. Chi-Seng Lam and Prof. Man-Kay Law. Supported by UM Macau Fellow Scheme under UM Talent Programme.
+  Hosted by Prof. Chi-Seng Lam and Prof. Man-Kay Law.
 
 # Research Projects and Grants
-
-## Principal and Co-Principal Investigator
 
 * National Natural Science Foundation of China Young Scientist Fund (C Class), No. 62504262, PI, 2026-2028.  
   Architecture and Key Technologies of Self-Calibration Bandgap Reference Circuits.
 * University of Macau Funded Project, No. MYRG-GRG2025-00170-IME, Co-PI, 2026-2027.  
   Photoacoustic Blood Vessel Imaging System for Medical Diagnostics Enhanced with ASIC.
 
-# Honours and Awards
-
-## Selected Fellowships and Scholarships
+# Selected Fellowships and Scholarships
 
 * UM Macau Fellow, University of Macau, 2023-2026.
 * UM PhD Fellowship (Assistantship), University of Macau, 2019-2023.
 * Silver Lotus Scholarship, University of Macau, 2015-2019.
 
-## Academic Prizes and Industry Recognition
+# Academic Prizes and Industry Recognition
 
 * Scientific and Technological R&D Award for Postgraduates (Ph.D. Level), Macau Science and Technology Development Fund, 2024.
 * Akrostar Technology Academic Prize, University of Macau and AkroStar Technology Co., Ltd., 2023.
