@@ -8,11 +8,14 @@ main:
   - title: "Home"
     url: /
 
-  - title: "Curriculum Vitae"
-    url: /resume/
+  - title: "Research"
+    url: /research/
 
   - title: "Publications"
     url: /publications/
+
+  - title: "CV"
+    url: /resume/
 
   - title: "Talks"
     url: /talks/    

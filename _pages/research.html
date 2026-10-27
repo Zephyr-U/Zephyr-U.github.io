@@ -1,0 +1,121 @@
+---
+layout: research
+title: "Research"
+description: "Precision references, temperature sensors and integrated biomedical sensing: selected research by Chi-Wa U."
+permalink: /research/
+research_design: true
+---
+<header class="page-intro">
+  <p class="eyebrow">Research</p>
+  <h1>Reliable measurements.<br>Limited energy.</h1>
+  <p class="intro">My research connects precision analog circuit design with low-power sensing systems. The starting point is a physical constraint; the goal is a measurement whose accuracy, energy cost and limitations can be demonstrated.</p>
+</header>
+
+<section id="precision-references" class="section">
+  <p class="eyebrow">01 · Precision analog &amp; sensor interfaces</p>
+  <h2>A stable reference for a changing world</h2>
+  <div class="case">
+    <figure class="case-visual">
+      <img src="{{ '/images/research/reference-die.jpg' | relative_url }}" alt="Die photograph of the fabricated JSSC auto-calibration bandgap reference" width="1024" height="976" loading="lazy">
+      <figcaption>Fabricated auto-calibration bandgap reference, IEEE JSSC 2024.</figcaption>
+    </figure>
+    <div>
+      <h3>The question</h3>
+      <p>How can a reference remain accurate across manufacturing variation and temperature without a large power budget or costly multi-temperature calibration?</p>
+      <h3>The approach</h3>
+      <p>I modelled how process variation affects reference voltage and temperature behaviour together, derived a coupled adjustment strategy, and implemented a digitally assisted calibration loop at one temperature.</p>
+      <p class="result">Ten measured chips · −40 to 120 °C · reported 1σ inaccuracy reduced from ±0.53% to ±0.12% after calibration.</p>
+      <a class="text-link" href="https://doi.org/10.1109/JSSC.2023.3294996">IEEE JSSC paper ↗</a>
+    </div>
+  </div>
+  <p>Related work explores switched-capacitor references, low-voltage operation, curvature compensation and AI-assisted multi-objective optimization. Together, these studies address the measurement scale that low-power sensors depend on.</p>
+</section>
+
+<section id="temperature-sensing" class="section">
+  <p class="eyebrow">Precision analog · Research mentorship</p>
+  <h2>Temperature sensing under tight constraints</h2>
+  <p class="intro">Two student-led projects extend circuit research into distinct sensing problems. I provided research guidance and am a corresponding author on both studies.</p>
+  <div class="focus-grid">
+    <article class="focus">
+      <h3>Small enough for dense thermal monitoring</h3>
+      <p>A 555-µm² digital temperature sensor in 65-nm CMOS, operating from −45 to 140 °C, addresses on-chip thermal monitoring of AI processors.</p>
+      <p><strong>First author:</strong> Y. Zhang<br><strong>Publication:</strong> IEEE TCAS-I, Early Access, 2026</p>
+      <a class="text-link" href="{{ '/publications/#temperature-digital' | relative_url }}">Paper &amp; citation →</a>
+    </article>
+    <article class="focus">
+      <h3>Temperature awareness before full power-up</h3>
+      <p>A 0.35-V untrimmed BJT-based temperature sensor addresses cold-start temperature awareness in energy-harvesting AIoT nodes, with reported −1.0/+0.86 °C inaccuracy over −40 to 120 °C.</p>
+      <p><strong>First author:</strong> H. Yu<br><strong>Publication:</strong> IEEE TCAS-I, Early Access, 2026</p>
+      <a class="text-link" href="{{ '/publications/#temperature-cold-start' | relative_url }}">Paper details →</a>
+    </article>
+  </div>
+</section>
+
+<section id="biomedical-systems" class="section">
+  <p class="eyebrow">02 · Biomedical sensing &amp; integrated systems</p>
+  <h2>A sensor needs more than a front end</h2>
+  <p class="intro">A small biomedical device must establish its supply, acquire a useful signal, receive settings and return data. My Glasgow work brings these functions together in an integrated circuit.</p>
+  <div class="case">
+    <figure class="case-visual">
+      <img src="{{ '/images/research/biomedical-package.jpg' | relative_url }}" alt="Packaged biomedical ASIC photographed beside a measurement scale" width="1279" height="1413" loading="lazy">
+      <figcaption>Fabricated biomedical ASIC package. The application motivates the design; it is not a clinical-validation result.</figcaption>
+    </figure>
+    <div>
+      <span class="status ongoing">Ongoing research</span>
+      <h3>My contribution</h3>
+      <p>I designed the Bio-Z and conversion circuits, power-management and monitoring circuits, and uplink/downlink circuits, including circuit architecture, implementation, layout and tapeout.</p>
+      <h3>Current evidence</h3>
+      <p>Power, receiver and transmitter blocks have hardware measurements. Bio-Z hardware characterization remains to be completed; full sensing-chain and application validation are subsequent milestones.</p>
+    </div>
+  </div>
+  <figure class="case-visual">
+    <div class="measurement-chain" aria-label="Conceptual grouping: power management, programmable sensing and data communication">
+      <span><strong>Power &amp; monitoring</strong><br>Establish operation</span><b aria-hidden="true">→</b><span><strong>Bio-Z &amp; conversion</strong><br>Acquire a measurement</span><b aria-hidden="true">↔</b><span><strong>Two-way communication</strong><br>Configure &amp; report</span>
+    </div>
+    <figcaption>Conceptual system functions; not a transistor-level schematic or a measured end-to-end result.</figcaption>
+  </figure>
+</section>
+
+<section id="ultrasound" class="section">
+  <p class="eyebrow">Devices · Interfaces · Collaboration</p>
+  <h2>Ultrasound and physiological sensing</h2>
+  <div class="two-column">
+    <div>
+      <h3>Ultrasound interfaces and imaging</h3>
+      <p>My work includes research guidance on an ultrasound analog front end with bandwidth-enhanced current conveyance and continuous time-gain compensation; that manuscript is in resubmission.</p>
+      <p>Published collaborations include passive ultrasonic power/data transfer in IEEE TIE and piezoelectric transducers in ACS Applied Materials &amp; Interfaces. I am a collaborating co-author on these studies.</p>
+      <p>I am also Co-PI of a UM-funded project on ASIC-enhanced photoacoustic blood-vessel imaging.</p>
+    </div>
+    <div>
+      <h3>Wearable physiological measurements</h3>
+      <p>I am a collaborating co-author of a wearable PPG system study in IEEE TBioCAS. This collaboration connects physiological acquisition, power management and wireless telemetry.</p>
+      <p>An emerging research direction examines how sensing conditions affect whether a physiological estimate is usable, linking hardware constraints with data-quality assessment.</p>
+      <a class="text-link" href="{{ '/publications/#wearable-ppg' | relative_url }}">Wearable PPG publication →</a>
+    </div>
+  </div>
+</section>
+
+<section id="intelligent-methods" class="section">
+  <p class="eyebrow">Methods connecting the research</p>
+  <h2>AI-assisted design and measurement reliability</h2>
+  <div class="two-column">
+    <div>
+      <span class="status">Published · OJCAS 2025</span>
+      <h3>Optimize the circuit around multiple constraints</h3>
+      <p>First-author work applies multi-objective AI optimization to improve temperature coefficient and line regulation in a wide-supply bandgap reference, with fabricated-silicon evaluation.</p>
+      <a class="text-link" href="{{ '/publications/#ai-reference' | relative_url }}">Read the paper →</a>
+    </div>
+    <div>
+      <span class="status ongoing">Ongoing method development</span>
+      <h3>Ask when a measurement should be used</h3>
+      <p>Current PPG work explores physically informed synthetic training for signal-quality decisions, evaluating retained-estimate error together with output availability.</p>
+      <p>Measured recordings informed method development; this work is not independent clinical validation, and it does not establish Bio-Z performance.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Interested in working together?</h2>
+  <p>I welcome conversations on precision analog circuits, low-power sensing interfaces and biomedical measurement systems.</p>
+  <a class="button" href="mailto:c.w.u@ieee.org">Get in touch →</a>
+</section>

@@ -1,0 +1,86 @@
+- id: temperature-digital
+  topic: Temperature sensing
+  year: 2026
+  title: "A 555-µm² Digital Temperature Sensor Operating From −45 °C to 140 °C in 65-nm CMOS: On-Chip Thermal Management of AI Processors"
+  authors: 'Y. Zhang, <strong>C.-W. U</strong><sup>✉</sup>, H. Yu, R. P. Martins, C.-S. Lam<sup>✉</sup>'
+  venue: "IEEE Transactions on Circuits and Systems I: Regular Papers"
+  status: Early Access
+  summary: "An ultra-compact digital temperature sensor for dense on-chip thermal monitoring. My role: research guidance and corresponding author; Y. Zhang is the first author."
+  doi: 10.1109/TCSI.2026.3715416
+  bibtex: |
+    @article{zhang2026digital,
+      author = {Zhang, Yin and U, Chi-Wa and Yu, Haochen and Martins, Rui P. and Lam, Chi-Seng},
+      title = {A 555-µm² Digital Temperature Sensor Operating From −45 °C to 140 °C in 65-nm CMOS: On-Chip Thermal Management of AI Processors},
+      journal = {IEEE Transactions on Circuits and Systems I: Regular Papers},
+      year = {2026},
+      doi = {10.1109/TCSI.2026.3715416}
+    }
+- id: temperature-cold-start
+  topic: Temperature sensing
+  year: 2026
+  title: "A 0.35-V Untrimmed BJT-Based Temperature Sensor Achieving −1.0/+0.86 °C Inaccuracy (p-p) From −40 °C to 120 °C for Cold-Start Temperature Awareness in Energy-Harvesting AIoT Nodes"
+  authors: 'H. Yu, <strong>C.-W. U</strong><sup>✉</sup>, Y. Zhang, R. P. Martins, C.-S. Lam<sup>✉</sup>'
+  venue: "IEEE Transactions on Circuits and Systems I: Regular Papers"
+  status: Early Access
+  summary: "Temperature awareness when energy-harvesting nodes have only a very low supply voltage available. My role: research guidance and corresponding author; H. Yu is the first author."
+  scholar_query: "A 0.35-V Untrimmed BJT-Based Temperature Sensor"
+- id: wearable-ppg
+  topic: Biomedical sensing · collaboration
+  year: 2026
+  title: "Motion-Aware Low-Power Wearable Photoplethysmography System with Metamaterial-Enhanced Wireless Telemetry"
+  authors: 'L. Khurelbaatar, J. Zhang, J. Wang, A. Mokhtarzade, B. Yalagala, P. Khosravi, <strong>C.-W. U</strong>, M. Amjadi, H. Heidari'
+  venue: "IEEE Transactions on Biomedical Circuits and Systems"
+  status: Early Access
+  summary: "A collaborative wearable PPG study connecting physiological acquisition, power management and wireless telemetry. My role: collaborating co-author."
+  doi: 10.1109/TBCAS.2026.3719439
+  bibtex: |
+    @article{khurelbaatar2026motion,
+      author = {Khurelbaatar, Luvsanbat and Zhang, Jungang and Wang, Jiaoran and Mokhtarzade, Ali and Yalagala, Bhavani and Khosravi, Pouya and U, Chi-Wa and Amjadi, Morteza and Heidari, Hadi},
+      title = {Motion-Aware Low-Power Wearable Photoplethysmography System with Metamaterial-Enhanced Wireless Telemetry},
+      journal = {IEEE Transactions on Biomedical Circuits and Systems},
+      year = {2026},
+      doi = {10.1109/TBCAS.2026.3719439}
+    }
+- id: ultrasonic-power-data
+  topic: Ultrasound · collaboration
+  year: 2026
+  title: "A Passive Differential Ultrasonic System with Voltage Doubling for Simultaneous Wireless Power and Data Transfer"
+  authors: 'C. Hou, Z. Zhao, Z. Li, <strong>C.-W. U</strong>, C.-H. Cheong, M.-K. Law, Y. Yang<sup>✉</sup>, C.-S. Lam<sup>✉</sup>'
+  venue: "IEEE Transactions on Industrial Electronics"
+  status: Early Access
+  summary: "A collaborative ultrasonic power-and-data transfer study. The published demonstration uses an underwater channel; it is distinct from in-body validation."
+  scholar_query: "A Passive Differential Ultrasonic System with Voltage Doubling for Simultaneous Wireless Power and Data Transfer"
+- id: ai-reference
+  topic: AI-assisted circuit design
+  year: 2025
+  title: "AI-Enhanced Wide Supply Voltage Bandgap Voltage Reference Circuit With Multi-Objective Optimization for Automotive Applications"
+  authors: '<strong>C.-W. U</strong>, Z. Li, C.-H. Cheong, C.-F. Lee, C.-S. Lam<sup>✉</sup>'
+  venue: "IEEE Open Journal of Circuits and Systems, vol. 6, pp. 487–495"
+  status: Published
+  summary: "Multi-objective optimization of temperature coefficient and line regulation in a wide-supply bandgap reference. My role: first author."
+  doi: 10.1109/OJCAS.2025.3531412
+  bibtex: |
+    @article{u2025ai,
+      author = {U, Chi-Wa and Li, Zhaoxi and Cheong, Cheng-Hou and Lee, Chon-Fai and Lam, Chi-Seng},
+      title = {AI-Enhanced Wide Supply Voltage Bandgap Voltage Reference Circuit With Multi-Objective Optimization for Automotive Applications},
+      journal = {IEEE Open Journal of Circuits and Systems},
+      volume = {6}, pages = {487--495}, year = {2025},
+      doi = {10.1109/OJCAS.2025.3531412}
+    }
+- id: reference-jssc
+  topic: Precision analog · self-calibration
+  year: 2024
+  title: "Sub-µW Auto-Calibration Bandgap Voltage Reference With 1σ Inaccuracy of ±0.12% Within −40 to 120 °C"
+  authors: '<strong>C.-W. U</strong>, M.-K. Law<sup>✉</sup>, C.-S. Lam<sup>✉</sup>, R. P. Martins'
+  venue: "IEEE Journal of Solid-State Circuits, vol. 59, no. 2, pp. 540–550"
+  status: Published
+  summary: "A process-aware calibration method that jointly addresses reference-voltage error and temperature dependence at a single calibration temperature. My role: first author."
+  doi: 10.1109/JSSC.2023.3294996
+  bibtex: |
+    @article{u2024calibration,
+      author = {U, Chi-Wa and Law, Man-Kay and Lam, Chi-Seng and Martins, Rui P.},
+      title = {Sub-µW Auto-Calibration Bandgap Voltage Reference With 1σ Inaccuracy of ±0.12% Within −40 to 120 °C},
+      journal = {IEEE Journal of Solid-State Circuits},
+      volume = {59}, number = {2}, pages = {540--550}, year = {2024},
+      doi = {10.1109/JSSC.2023.3294996}
+    }

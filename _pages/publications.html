@@ -1,36 +1,30 @@
 ---
-layout: archive
-title: "Publications"
+layout: research
+title: "Selected Publications"
+description: "Selected work by Chi-Wa U in precision analog circuits, temperature sensing and biomedical systems."
 permalink: /publications/
-author_profile: true
+research_design: true
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<header class="page-intro">
+  <p class="eyebrow">Publications</p>
+  <h1>Selected publications</h1>
+  <p class="intro">A selection of work in precision analog circuits, sensor interfaces and biomedical systems.</p>
+  <div class="actions"><a class="button" href="{{ site.author.googlescholar }}">Full publication list on Google Scholar ↗</a><a class="text-link" href="{{ '/research/' | relative_url }}">Research stories →</a></div>
+  <p class="method-note">✉ Corresponding author. First authorship, research guidance and collaborative contributions are identified for each paper.</p>
+</header>
+{% for paper in site.data.selected_publications %}
+<article class="publication" id="{{ paper.id }}">
+  <span class="publication-label">{{ paper.topic }} · {{ paper.year }}</span>
+  <h2>{{ paper.title | escape }}</h2>
+  <p class="authors">{{ paper.authors }}</p>
+  <p class="venue"><em>{{ paper.venue | escape }}</em> · <span class="status">{{ paper.status }}</span></p>
+  <p class="summary">{{ paper.summary | escape }}</p>
+  {% if paper.doi %}
+  <a class="text-link" href="https://doi.org/{{ paper.doi }}">Publisher / DOI ↗</a>
+  {% else %}
+  <a class="text-link" href="https://scholar.google.com/scholar?q={{ paper.scholar_query | url_encode }}">Find paper on Google Scholar ↗</a>
+  {% endif %}
+  {% if paper.bibtex %}<details><summary>BibTeX</summary><pre><code>{{ paper.bibtex | escape }}</code></pre></details>{% endif %}
+</article>
+{% endfor %}
+<div class="actions"><a class="text-link" href="{{ site.author.googlescholar }}">View all publications on Google Scholar ↗</a></div>

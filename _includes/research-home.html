@@ -1,0 +1,121 @@
+<section class="hero">
+  <div>
+    <p class="eyebrow">Circuits · Sensors · Systems</p>
+    <p class="hero-name">Chi-Wa U / Zephyr</p>
+    <h1>Precision analog ICs<br>for low-power sensing.</h1>
+    <p class="hero-copy">I design energy-efficient analog and mixed-signal integrated circuits that turn physical signals into reliable measurements, with applications in biomedical and connected sensing systems.</p>
+    <div class="actions">
+      <a class="button" href="{{ '/research/' | relative_url }}">Explore research →</a>
+      <a class="text-link" href="{{ '/publications/' | relative_url }}">Selected publications</a>
+      <a class="text-link" href="{{ '/resume/' | relative_url }}">CV</a>
+    </div>
+  </div>
+  <figure class="hero-visual">
+    <p class="eyebrow">From circuit ideas to measured silicon</p>
+    <img src="{{ '/images/research/reference-die.jpg' | relative_url }}" alt="Micrograph of the fabricated auto-calibration bandgap reference chip with bond wires" width="1024" height="976" fetchpriority="high">
+    <div class="measurement-chain" aria-label="Research connects precision circuits, sensor interfaces and reliable measurements">
+      <span>Precision<br>circuits</span><b aria-hidden="true">→</b><span>Sensor<br>interfaces</span><b aria-hidden="true">→</b><span>Reliable<br>measurements</span>
+    </div>
+    <figcaption>Fabricated reference IC · IEEE JSSC, 2024</figcaption>
+  </figure>
+</section>
+
+<section class="section" aria-labelledby="focus-title">
+  <div class="section-head"><h2 id="focus-title">Research focus</h2><a class="text-link" href="{{ '/research/' | relative_url }}">The research →</a></div>
+  <div class="focus-grid">
+    <article class="focus">
+      <span class="focus-number">01</span>
+      <h3>Precision analog &amp;<br>sensor interfaces</h3>
+      <p>How can a tiny, energy-constrained chip maintain an accurate measurement scale? I work on voltage references, self-calibration and temperature sensing, from physical error models to circuit implementation and silicon measurements.</p>
+    </article>
+    <article class="focus">
+      <span class="focus-number">02</span>
+      <h3>Biomedical sensing &amp;<br>integrated systems</h3>
+      <p>How can sensing, power and communication work together? My current work develops biomedical ASICs and interfaces for bioimpedance and ultrasound, alongside collaborations in wearable physiological sensing.</p>
+    </article>
+  </div>
+  <p class="method-note"><strong>Connecting the two:</strong> power-aware system design, AI-assisted circuit optimization, and emerging methods for assessing measurement reliability.</p>
+</section>
+
+<section class="section" aria-labelledby="highlights-title">
+  <div class="section-head"><h2 id="highlights-title">Selected research</h2><a class="text-link" href="{{ '/publications/' | relative_url }}">Selected papers →</a></div>
+  <article class="case">
+    <figure class="case-visual">
+      <img src="{{ '/images/research/reference-die.jpg' | relative_url }}" alt="Fabricated self-calibrating voltage reference IC" width="1024" height="976" loading="lazy">
+      <figcaption>A physical error model, automatic calibration, and measured silicon.</figcaption>
+    </figure>
+    <div>
+      <span class="status">IEEE JSSC · 2024 · First author</span>
+      <h3>Self-calibration for a stable measurement scale</h3>
+      <p>A reference circuit acts as a measurement ruler. This work models related process and temperature errors, then couples on-chip adjustments to calibrate the reference at a single temperature.</p>
+      <p class="result">±0.12% reported 1σ inaccuracy across −40 to 120 °C, measured over ten chips; sub-µW operation after calibration.</p>
+      <a class="text-link" href="{{ '/research/#precision-references' | relative_url }}">Read the research story →</a>
+    </div>
+  </article>
+  <article class="case">
+    <figure class="case-visual">
+      <div class="temperature-pair">
+        <div class="sensor-metric"><strong>555 µm²</strong><span>Digital temperature sensor · 65-nm CMOS<br>−45 to 140 °C operating range</span></div>
+        <div class="sensor-metric"><strong>0.35 V</strong><span>Untrimmed BJT-based temperature sensor<br>Cold-start awareness for energy-harvesting nodes</span></div>
+      </div>
+      <figcaption>Two separate TCAS-I studies · 2026</figcaption>
+    </figure>
+    <div>
+      <span class="status">IEEE TCAS-I · 2026 · Corresponding author</span>
+      <h3>Temperature sensing where area and energy are scarce</h3>
+      <p>Two student-led studies address different constraints: compact thermal monitoring for AI processors, and temperature awareness during the cold start of energy-harvesting nodes.</p>
+      <p>I provided research guidance and am a corresponding author. Y. Zhang and H. Yu are the respective first authors.</p>
+      <a class="text-link" href="{{ '/research/#temperature-sensing' | relative_url }}">Explore both studies →</a>
+    </div>
+  </article>
+  <article class="case">
+    <figure class="case-visual">
+      <img src="{{ '/images/research/biomedical-package.jpg' | relative_url }}" alt="Photograph of a fabricated biomedical ASIC package beside a scale" width="1279" height="1413" loading="lazy">
+      <figcaption>Fabricated hardware for ongoing integrated biomedical sensing research.</figcaption>
+    </figure>
+    <div>
+      <span class="status ongoing">Ongoing research · Glasgow meLAB</span>
+      <h3>Connecting sensing, power and two-way communication</h3>
+      <p>I designed the bioimpedance and conversion circuits, power-management and monitoring circuits, and uplink/downlink circuits of a biomedical ASIC, covering architecture, implementation, layout and tapeout.</p>
+      <p>Power and communication blocks have hardware measurements. Bioimpedance hardware characterization is the next milestone.</p>
+      <a class="text-link" href="{{ '/research/#biomedical-systems' | relative_url }}">Explore the system →</a>
+    </div>
+  </article>
+</section>
+
+<section class="section" aria-labelledby="updates-title">
+  <h2 id="updates-title">Recent updates</h2>
+  <ul class="news-list">
+    <li><time datetime="2026">2026</time><span>Two temperature-sensor studies in <em>IEEE TCAS-I</em>, with Y. Zhang and H. Yu as first authors and me as a corresponding author. <a href="{{ '/publications/' | relative_url }}">Read more →</a></span></li>
+    <li><time datetime="2026">2026</time><span>Collaborative studies on wearable PPG and ultrasonic power/data transfer appear in <em>IEEE TBioCAS</em> and <em>IEEE TIE</em> as Early Access articles.</span></li>
+    <li><time datetime="2026">2026–28</time><span>PI of NSFC Young Scientist Fund project <strong>62504262</strong> on self-calibration bandgap reference circuits.</span></li>
+  </ul>
+</section>
+
+<section class="section two-column" aria-label="Research funding and mentorship">
+  <div>
+    <p class="eyebrow">Research responsibility</p>
+    <h2>Funding &amp; projects</h2>
+    <p><strong>PI · NSFC Young Scientist Fund (C)</strong><br>Architecture and Key Technologies of Self-Calibration Bandgap Reference Circuits<br>62504262 · 2026–2028</p>
+    <p><strong>Co-PI · University of Macau</strong><br>Photoacoustic Blood Vessel Imaging System for Medical Diagnostics Enhanced with ASIC<br>MYRG-GRG2025-00170-IME · 2026–2027</p>
+  </div>
+  <div>
+    <p class="eyebrow">Working with students</p>
+    <h2>Research mentorship</h2>
+    <p>I support students in turning physical constraints into testable circuit ideas, and carrying those ideas through implementation, measurement and publication.</p>
+    <p>Recent outcomes include two student-first-author TCAS-I papers, co-supervised Best Final Year Project awards at UM in 2025 and 2026, and a co-supervised national second prize in the 2023 Challenge Cup.</p>
+    <a class="text-link" href="{{ '/resume/' | relative_url }}">Experience &amp; service →</a>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="about-title">
+  <div class="profile-line">
+    <img src="{{ '/images/profile.jpg' | relative_url }}" alt="Chi-Wa U" width="100" height="100" loading="lazy">
+    <div>
+      <h2 id="about-title">About me</h2>
+      <p>I received my Ph.D. in Electrical and Computer Engineering from the University of Macau in 2023. My research has developed through the UM Macau Fellow programme and work with the Microelectronics Lab (meLAB) at the University of Glasgow.</p>
+      <p>For research collaboration and mentorship enquiries: <a href="mailto:c.w.u@ieee.org">c.w.u@ieee.org</a>.</p>
+      <div class="actions"><a class="text-link" href="{{ site.author.googlescholar }}">Google Scholar ↗</a><a class="text-link" href="{{ site.author.orcid }}">ORCID ↗</a><a class="text-link" href="{{ '/resume/' | relative_url }}">Curriculum vitae →</a></div>
+    </div>
+  </div>
+</section>
