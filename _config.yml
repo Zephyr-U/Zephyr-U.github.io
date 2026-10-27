@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Chi-Wa U (Zephyr)"
 title_separator          : "-"
 name                     : &name "Chi-Wa U"
-description              : &description "Chi-Wa U (Zephyr): precision analog and mixed-signal ICs for low-power sensing and biomedical systems."
+description              : &description "Personal academic homepage of Chi-Wa U (Zephyr), an analog and mixed-signal IC researcher."
 url                      : https://zephyr-u.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Zephyr-U/Zephyr-U.github.io"
@@ -21,14 +21,14 @@ repository               : "Zephyr-U/Zephyr-U.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Chi-Wa U"
   pronouns         : # example: "she/her"  
-  bio              : "Precision analog ICs for low-power sensing"
+  bio              : "Analog and Mixed-Signal IC Researcher"
   location         : "Macau / Glasgow"
-  employer         : "University of Glasgow (visiting)"
+  employer         : "University of Macau; University of Glasgow"
   uri              : "https://ime.um.edu.mo/people/chi-wa-u-2/"
-  email            : "c.w.u@ieee.org"
+  email            : "zephyru0807@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile

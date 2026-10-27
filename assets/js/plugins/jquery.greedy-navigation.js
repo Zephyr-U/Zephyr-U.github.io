@@ -52,7 +52,7 @@ function updateNav() {
   $btn.attr("count", breaks.length);
 
   // Recur if the visible list is still overflowing the nav
-  if($vlinks.width() > availableSpace && $vlinks.children('*:not(.masthead__menu-item--lg)').length) {
+  if($vlinks.width() > availableSpace) {
     updateNav();
   }
 
