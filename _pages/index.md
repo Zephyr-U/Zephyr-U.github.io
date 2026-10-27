@@ -1,6 +1,8 @@
 ---
 layout: archive
 title: "About me"
+seo_title: "Chi-Wa U (Zephyr) | Biomedical Circuits and Systems"
+description: "Chi-Wa U (Zephyr) is a Postdoctoral Research Associate at the University of Glasgow, developing circuits and systems for biomedical sensing and monitoring."
 permalink: /
 author_profile: true
 redirect_from: 
