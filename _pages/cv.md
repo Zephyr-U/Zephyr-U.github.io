@@ -35,9 +35,7 @@ redirect_from:
 ## Selected Fellowships and Scholarships
 
 * UM Macau Fellow, University of Macau, 2023-2026.
-* Grant for Study in Designated Field of Specialisation, Education Fund, Macau, 2021-2023.
 * UM PhD Fellowship (Assistantship), University of Macau, 2019-2023.
-* Undergraduate Student Scholarship, Education Fund, Macau, 2015-2019.
 * Silver Lotus Scholarship, University of Macau, 2015-2019.
 
 ## Academic Prizes and Industry Recognition
