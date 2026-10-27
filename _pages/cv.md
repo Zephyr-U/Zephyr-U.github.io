@@ -11,17 +11,13 @@ redirect_from:
 
 # Education
 
-* **Ph.D. in Electrical and Electronics Engineering**, University of Macau, Macau, 2019-2023  
-  Supervisor: Prof. Chi-Seng Lam and Prof. Man-Kay Law. Supported by UM PhD Assistantship.
-* **B.Sc. in Electrical and Computer Engineering**, University of Macau, Macau, 2015-2019  
-  Supported by Silver Lotus Scholarship. Major rank: 1st.
+* **Ph.D. in Electrical and Electronics Engineering**, University of Macau, Macau, 2019-2023
+* **B.Sc. in Electrical and Computer Engineering**, University of Macau, Macau, 2015-2019
 
 # Professional Experience
 
-* **Postdoctoral Research Associate**, Microelectronics Lab (meLAB), University of Glasgow, UK, confirmed from Aug. 2026  
-  Hosted by Prof. Hadi Heidari. Supported by the EPSRC-SEQUENCE Project.
-* **Postdoctoral Research Associate**, Microelectronics Lab (meLAB), University of Glasgow, UK, Jul. 2025-Jul. 2026  
-  Hosted by Prof. Hadi Heidari. Supported by UM Macau Fellow Scheme under UM Talent Programme.
+* **Postdoctoral Research Associate**, Microelectronics Lab (meLAB), University of Glasgow, UK, Jul. 2025–present<br>
+  Hosted by Prof. Hadi Heidari. Supported by the UM Macau Fellow Scheme under UM Talent Programme and the EPSRC-SEQUENCE Project.
 * **UM Macau Fellow (Postdoctoral Fellow)**, Institute of Microelectronics, University of Macau, Macau, Aug. 2023-Jul. 2026  
   Hosted by Prof. Chi-Seng Lam and Prof. Man-Kay Law. Supported by UM Macau Fellow Scheme under UM Talent Programme.
 
