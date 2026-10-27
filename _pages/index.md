@@ -18,6 +18,17 @@ Recent News
 
 * **June 30, 2026** — Two papers in *IEEE TCAS-I*, led by Haochen Yu and Yin Zhang, will be presented at ISICAS 2026.
 
+Ongoing Project
+======
+
+* **Architecture and Key Technologies of Self-Calibration Bandgap Reference Circuits**<br>
+  **PI** · National Natural Science Foundation of China Young Scientist Fund (C Class) · **2026–2028**<br>
+  Project No. 62504262.
+
+* **Photoacoustic Blood Vessel Imaging System for Medical Diagnostics Enhanced with ASIC**<br>
+  **Co-PI** · University of Macau Funded Project · **2026–2027**<br>
+  Project No. MYRG-GRG2025-00170-IME.
+
 Contact
 ======
 
