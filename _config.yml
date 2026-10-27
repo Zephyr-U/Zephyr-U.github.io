@@ -139,8 +139,13 @@ og_image                 :  # Open Graph/Twitter default site image
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  name                   : "Chi-Wa U"
+  alternate_name         : "Zephyr"
+  job_title              : "Postdoctoral Research Associate"
+  links:
+    - "https://orcid.org/0000-0001-5338-2637"
+    - "https://scholar.google.com/citations?user=t_foGjkAAAAJ"
+    - "https://www.linkedin.com/in/chiwau/"
 
 
 # Analytics

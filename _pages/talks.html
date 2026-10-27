@@ -1,6 +1,8 @@
 ---
 layout: archive
 title: "Research"
+seo_title: "Research | Chi-Wa U | Precision Analog Circuits and Systems"
+description: "Precision analog circuit research by Chi-Wa U: bandgap reference calibration, low-power temperature sensors, and AI-based reliability gating for biomedical sensing."
 permalink: /research/
 author_profile: true
 ---
@@ -8,10 +10,13 @@ author_profile: true
 <h1>Precision Analog Circuits and Systems</h1>
 
 <h2>BGR Trimming and Auto-Calibration</h2>
+<p>Process variation affects both the output voltage and temperature dependence of bandgap references. This work uses on-chip automatic calibration to reduce reference error and simplify trimming in a low-power voltage reference.</p>
+<p><a href="https://doi.org/10.1109/JSSC.2023.3294996">Related paper: Sub-µW Auto-Calibration Bandgap Voltage Reference, IEEE JSSC</a></p>
 
 <a href="{{ '/images/research/bgr-trimming.png' | relative_url }}"><img src="{{ '/images/research/bgr-trimming.webp' | relative_url }}" alt="Bandgap reference trimming and on-chip automatic calibration: motivation, approach and outcome" style="width:100%;height:auto;" width="2000" height="876" decoding="async" fetchpriority="high"></a>
 
 <h2>AI Signal Gating</h2>
+<p>We are investigating AI-based reliability gating for bioimpedance measurements. This ongoing research aims to retain reliable signal segments and withhold uncertain measurements when sensing conditions change.</p>
 
 <a href="{{ '/images/research/ai-signal-gating.png' | relative_url }}"><img src="{{ '/images/research/ai-signal-gating.webp' | relative_url }}" alt="AI-based reliability gate for bioimpedance signals, illustrating keep and withhold decisions" style="width:100%;height:auto;" loading="lazy" width="1174" height="568" decoding="async"></a>
 
@@ -24,10 +29,14 @@ author_profile: true
 <div class="research-temperature">
   <div>
     <h3>Temperature Sensing for Energy-Harvesting Nodes</h3>
+    <p>Temperature awareness during cold start requires sensors that can operate with very limited supply voltage. This work develops an untrimmed BJT-based temperature sensor operating at 0.35 V for energy-harvesting AIoT nodes.</p>
+    <p><a href="https://scholar.google.com/scholar?q=A+0.35-V+Untrimmed+BJT-Based+Temperature+Sensor+Achieving+%E2%88%921.0%2F%2B0.86+%C2%B0C+Inaccuracy+%28p-p%29+From+%E2%88%9240+%C2%B0C+to+120+%C2%B0C+for+Cold-Start+Temperature+Awareness+in+Energy-Harvesting+AIoT+Nodes">Related paper: A 0.35-V Untrimmed BJT-Based Temperature Sensor, IEEE TCAS-I</a></p>
     <a href="{{ '/images/research/temperature-energy-harvesting.png' | relative_url }}"><img src="{{ '/images/research/temperature-energy-harvesting.webp' | relative_url }}" alt="Energy harvesting, power management, temperature sensing and wake-up decisions for sensing nodes" loading="lazy" width="1000" height="608" decoding="async"></a>
   </div>
   <div>
     <h3>Compact On-Chip Temperature Sensing</h3>
+    <p>Dense on-chip thermal monitoring calls for small temperature sensors that can be placed near heat sources. This work develops a 555-µm² digital temperature sensor in 65-nm CMOS for thermal management of AI processors.</p>
+    <p><a href="https://doi.org/10.1109/TCSI.2026.3715416">Related paper: A 555-µm² Digital Temperature Sensor, IEEE TCAS-I</a></p>
     <a href="{{ '/images/research/temperature-on-chip.png' | relative_url }}"><img src="{{ '/images/research/temperature-on-chip.webp' | relative_url }}" alt="Compact on-chip temperature sensor, chip layout, thermal map and readout signal chain" loading="lazy" width="1000" height="710" decoding="async"></a>
   </div>
 </div>
