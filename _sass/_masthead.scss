@@ -38,11 +38,45 @@
 
 .masthead__menu {
 
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  .greedy-nav {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .masthead__language {
+    flex: none;
+    padding: 0.5rem 0;
+    color: $masthead-link-color;
+    white-space: nowrap;
+
+    &:hover {
+      color: $masthead-link-color-hover;
+    }
+  }
+
   ul {
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .masthead__menu .masthead__menu-item--lg {
+    padding-right: 0.25rem;
+
+    a {
+      width: 7rem;
+      margin-right: 0;
+      font-size: 0.875rem;
+      line-height: 1.25;
+    }
   }
 }
 

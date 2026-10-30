@@ -17,16 +17,14 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
-          <li class="masthead__menu-item">
-            {% if page.lang == "zh-Hans" %}
-              <a href="{{ '/' | relative_url }}" hreflang="en" lang="en">English</a>
-            {% else %}
-              <a href="{{ '/zh/' | relative_url }}" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-            {% endif %}
-          </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      {% if page.lang == "zh-Hans" %}
+        <a class="masthead__language" href="{{ '/' | relative_url }}" hreflang="en" lang="en">English</a>
+      {% else %}
+        <a class="masthead__language" href="{{ '/zh/' | relative_url }}" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+      {% endif %}
     </div>
   </div>
 </div>
