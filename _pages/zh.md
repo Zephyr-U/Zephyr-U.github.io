@@ -1,23 +1,23 @@
 ---
 layout: archive
 title: "个人简介"
-seo_title: "余志桦（Chi-Wa U）｜生物医学传感与集成电路研究"
-description: "余志桦（Chi-Wa U），格拉斯哥大学博士后研究员，从事生物医学传感与监测相关的电路与系统研究，欢迎有意攻读 MSc 或 MPhil 的学生联系。"
+seo_title: "余志桦（Chi-Wa U）｜面向生物医学应用的电路与系统"
+description: "余志桦（Chi-Wa U），格拉斯哥大学博士后研究员，研究面向生物医学应用的电路与系统，以集成电路设计为技术路线之一，欢迎有意攻读 MSc 或 MPhil 的学生联系。"
 permalink: /zh/
 author_profile: true
 lang: zh-Hans
 locale: zh_CN
 author_name: "余志桦 / Chi-Wa U"
-author_bio: "模拟与混合信号集成电路研究"
+author_bio: "面向生物医学应用的电路与系统"
 author_location: "澳门 / 格拉斯哥"
 author_employer: "格拉斯哥大学"
 ---
 
-我是**余志桦（Chi-Wa U）**，也可以叫我 **Zephyr**。我主要从事生物医学传感与监测所需的电路与系统研究。
+我是**余志桦（Chi-Wa U）**，也可以叫我 **Zephyr**。我主要研究**面向生物医学应用的电路与系统**，涵盖传感与监测等应用。集成电路设计是其中一条技术路线。
 
 我目前在英国**格拉斯哥大学**的 [Microelectronics Lab（meLAB）](https://melabresearch.com/) 担任**博士后研究员（Postdoctoral Research Associate）**，同时继续与**澳门大学微电子研究院（IME）**的[林智声教授](https://ime.um.edu.mo/people/cslam/)合作，共同指导学生开展集成电路研究。
 
-**目前正在寻找有意攻读 MSc 或 MPhil、开展集成电路研究的学生。**欢迎在邮件中介绍你的学习背景及感兴趣的研究方向。
+**目前正在寻找有意攻读 MSc 或 MPhil、开展生物医学电路与系统研究的学生。**欢迎在邮件中介绍你的学习背景及感兴趣的研究方向。
 
 最新消息
 ======

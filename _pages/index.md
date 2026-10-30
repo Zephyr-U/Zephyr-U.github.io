@@ -1,8 +1,8 @@
 ---
 layout: archive
 title: "About me"
-seo_title: "Chi-Wa U (Zephyr) | Biomedical Circuits and Systems"
-description: "Chi-Wa U (Zephyr) is a Postdoctoral Research Associate at the University of Glasgow, developing circuits and systems for biomedical sensing and monitoring."
+seo_title: "Chi-Wa U (Zephyr) | Circuits & Systems for Biomedical Applications"
+description: "Chi-Wa U (Zephyr) researches circuits and systems for biomedical applications at the University of Glasgow, using integrated circuit design as one enabling approach."
 permalink: /
 author_profile: true
 lang: en
@@ -11,7 +11,7 @@ redirect_from:
   - /index
 ---
 
-Hi, I'm Chi-Wa U (余志桦, Zephyr). I develop circuits and systems for biomedical sensing and monitoring.
+Hi, I'm Chi-Wa U (余志桦, Zephyr). I develop circuits and systems for biomedical applications, including sensing and monitoring. Integrated circuit design is one of the approaches I use in this work.
 
 I am currently a Postdoctoral Research Associate at the [Microelectronics Lab (meLAB)](https://melabresearch.com/), University of Glasgow. I also continue to collaborate with Prof. [Chi-Seng Lam](https://ime.um.edu.mo/people/cslam/) at the [Institute of Microelectronics (IME)](https://ime.um.edu.mo/), University of Macau, jointly guiding students in integrated circuit research. We are currently looking for MSc and MPhil students.
 
